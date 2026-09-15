@@ -1,0 +1,20 @@
+.title{
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    color: hotpink;
+    font-size:x-large;
+    font-weight:500;
+    background-color:rgb(150, 237, 155) ;
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.145);
+}
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-style:initial;
+    color:rgb(225, 242, 96);
+    font-size:large;
+    text-align:center;
+}
+.section{
+    margin-bottom: 20px;
+    box-shadow: 3px 5px 10px rgba(128, 128, 128, 0.236);
+}
