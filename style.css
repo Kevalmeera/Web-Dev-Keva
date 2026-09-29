@@ -1,4 +1,4 @@
-.title{
+/*.title{
     font-style: italic;
     font-family:'Courier New', Courier, monospace;
     color: hotpink;
@@ -17,4 +17,54 @@ p{
 .section{
     margin-bottom: 20px;
     box-shadow: 3px 5px 10px rgba(128, 128, 128, 0.236);
+}*/
+
+body {
+    background-color: rgb(155, 152, 135);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.card {
+   background-color: aliceblue; 
+   width: 300px;
+   padding: 25px;
+   border-radius: 15px;
+   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+   text-align: center;
+}
+.foto-profil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #484736;
+}
+.nama {
+    color:#484736;
+    margin: 15px 0 5px 0;
+}
+.state {
+    color:#484736;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.bio {
+    color:grey;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.contact {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #484736;
+    color:#f5f4ec;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
 }
