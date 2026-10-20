@@ -1,0 +1,19 @@
+.box-R{
+    background-color: rgb(187, 76, 76);
+    width: fit-content;
+}
+.box-P{
+    background-color: pink;
+    width: fit-content;
+}
+.box-W{
+    background-color: rgb(218, 214, 214);
+    width: fit-content;
+}
+.box-B{
+    background-color: rgb(251, 251, 182);
+    width: fit-content;
+}
+.container{
+    display: flex;
+}
